@@ -1,0 +1,26 @@
+{
+    "name": "sbarbat/laravity",
+    "description": "Laravel user activity tracker for AWS Kinesis",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santi Barbat",
+            "email": "barbatsan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laravity\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravity\\UserActivityServiceProvider"
+            ]
+        }
+    }
+}
